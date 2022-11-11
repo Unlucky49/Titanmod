@@ -87,7 +87,8 @@ function PlayerModelChange(ply, cmd, args)
     modelArray[33] = {"models/player/custom_player/legacy/ctm_gendarmerie_variantb.mdl", "Guard", "", "killstreaks", 360}
     modelArray[34] = {"models/cyanblue/fate/astolfo/astolfo.mdl", "Astolfo", "I was forced to do this.", "special", "name"}
     modelArray[35] = {"models/titanfall2_playermodel/kanepm.mdl", "Kane", "3 hour of beta playtime reward.", "special", "beta"}
-
+    modelArray[36] = {"models/captainbigbutt/vocaloid/miku_classic.mdl", "Hatsune Miku", "Its Miku! Yippee!!!.", "special", "name"}
+	
 	for k, v in pairs(modelArray) do
 		if (args[1] == v[1]) then
 
